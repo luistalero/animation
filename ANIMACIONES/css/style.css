@@ -1,0 +1,60 @@
+body {
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    background:#2c333a;
+  }
+  @keyframes example{
+    from {transform: rotateX('-180');}
+  }
+div{
+    text-align: center;
+}
+.c{
+    position: relative;
+    animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-delay: -2s;*/
+}
+.C{
+    position: relative;
+    animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-delay: -2s;*/
+}
+.a{
+    position: relative;
+    animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-delay: -2s;*/
+}
+.A{
+    position: relative;
+    animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-delay: -2s;*/
+}
+.t{
+    position: relative;
+    animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-delay: -2s;*/
+}
+.T{
+    position: relative;
+    animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-delay: -2s;*/
+}
+.l{
+    position: relative;
+    animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-delay: -2s;*/
+}

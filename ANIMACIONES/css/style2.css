@@ -1,0 +1,9 @@
+@keyframes move{
+    from {right: 0%;}
+    to {left: 100%;}
+}
+div{
+    position: absolute;
+    animation-name: move;
+    animation-iteration-count: infinite;
+}
