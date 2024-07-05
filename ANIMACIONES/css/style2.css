@@ -1,9 +1,31 @@
-@keyframes move{
-    from {right: 0%;}
-    to {left: 100%;}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.C{
+    display: flex;
+    flex-direction: column;
 }
 div{
-    position: absolute;
-    animation-name: move;
     animation-iteration-count: infinite;
+}
+.ca{
+    height: 20vh;
+    width: 10vw;
+    animation: move 10s;
+}
+.cA{
+    animation: move 10s;
+}
+@keyframes move{
+    from {
+        margin-left: -20%;
+    }
+    to {
+        margin-left: 110%;
+    }
 }
