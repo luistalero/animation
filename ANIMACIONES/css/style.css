@@ -3,58 +3,63 @@ body {
     font-size:6rem;
     background:#2c333a;
   }
-  @keyframes example{
-    from {transform: rotateX('-180');}
-  }
 div{
     text-align: center;
+    animation-name: letras;
 }
-.c{
-    position: relative;
-    animation-direction: alternate;
-    animation-name: example;
-    animation-duration: 4s;
-    /*animation-delay: -2s;*/
+  .c{
+    height: 2em;
+    animation-name: letras;
+    animation-duration: 5s;
+    display: inline-block;
+    animation-timing-function: linear;
 }
 .C{
-    position: relative;
-    animation-direction: alternate;
-    animation-name: example;
-    animation-duration: 4s;
-    /*animation-delay: -2s;*/
+    height: 2em;
+    animation-name: letras;
+    animation-duration: 6s;
+    display: inline-block;
+    animation-timing-function: linear;  
 }
 .a{
-    position: relative;
-    animation-direction: alternate;
-    animation-name: example;
-    animation-duration: 4s;
-    /*animation-delay: -2s;*/
+    height: 2em;
+    animation-name: letras;
+    animation-duration: 7s;
+    display: inline-block;
+    animation-timing-function: linear;  
 }
 .A{
-    position: relative;
-    animation-direction: alternate;
-    animation-name: example;
-    animation-duration: 4s;
-    /*animation-delay: -2s;*/
+    height: 2em;
+    animation-name: letras;
+    animation-duration: 8s;
+    display: inline-block;
+    animation-timing-function: linear;  
 }
 .t{
-    position: relative;
-    animation-direction: alternate;
-    animation-name: example;
-    animation-duration: 4s;
-    /*animation-delay: -2s;*/
+    height: 2em;
+    animation-name: letras;
+    animation-duration: 9s;
+    display: inline-block;
+    animation-timing-function: linear;  
 }
+   
 .T{
-    position: relative;
-    animation-direction: alternate;
-    animation-name: example;
-    animation-duration: 4s;
-    /*animation-delay: -2s;*/
+    height: 2em;
+    animation-name: letras;
+    animation-duration: 10s;
+    display: inline-block;
+    animation-timing-function: linear;  
 }
+    
 .l{
-    position: relative;
-    animation-direction: alternate;
-    animation-name: example;
-    animation-duration: 4s;
-    /*animation-delay: -2s;*/
+    height: 2em;
+    animation-name: letras;
+    animation-duration: 11s;
+    display: inline-block;
+    animation-timing-function: linear;
+}
+  @keyframes letras{
+    100% {
+        transform: rotatex(-360deg);
+    }
 }
