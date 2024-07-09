@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-image: url(/image/fondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -11,7 +11,7 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 25vw;
     overflow: hidden;
     width: 30vw;
     height: 50vw;
@@ -20,6 +20,7 @@ body{
     animation-iteration-count: infinite;
 }
 .caminante {
+    mix-blend-mode: multiply;
     position: relative;
     height: 500vw;
     width: 100vw;
@@ -27,11 +28,7 @@ body{
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-@keyframes ca{
-    100% {
-    left: -60vw;
-    }
-}
+
 @keyframes cA{
     0% {top: 0vw;}
     10% {top: 0vw;}
