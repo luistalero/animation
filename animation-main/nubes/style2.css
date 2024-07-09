@@ -27,7 +27,7 @@ div{
 }
 @keyframes move{
     from {
-        margin-left: -20%;
+        margin-left: -30%;
     }
     to {
         margin-left: 110%;
